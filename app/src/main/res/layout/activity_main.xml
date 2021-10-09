@@ -11,18 +11,17 @@
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/text_View"
-        android:layout_toRightof="@id/text_View"
+        android:layout_below="@id/textView"
+        android:layout_toRightOf="@id/textView"
         android:text="Xin Chao" />
 
     <TextView
-        android:id="@+id/text_View"
+        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInparent="true"
-        android:layout_wieght="1"
-        android:background="#FDD835"
-        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        android:background="#FFFFFF00"
         android:text="Hello"
         android:textColor="#5E35B1"
         android:textSize="80sp" />
